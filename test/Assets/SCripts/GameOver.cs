@@ -14,7 +14,7 @@ public class GameOver : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        textelement.text = "";
+        textelement.text = " ";
 
         exit_button.gameObject.SetActive(false);
         restart_button.gameObject.SetActive(false);
