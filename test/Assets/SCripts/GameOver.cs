@@ -32,6 +32,7 @@ public class GameOver : MonoBehaviour
 
             exit_button.gameObject.SetActive(true);
             restart_button.gameObject.SetActive(true);
+            Time.timeScale = 0;
 
         }
 
